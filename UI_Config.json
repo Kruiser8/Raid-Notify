@@ -1,0 +1,48 @@
+{
+	"output_file": "settings.json",
+	"RaidMessage": {
+		"type": "textbox",
+		"value": "{name} is raiding the stream with {count} viewers!",
+		"label": "Custom Reply",
+		"tooltip": "The message sent when a user raids the channel\r\n {name} - the user who raided\r\n {count} - the number of raiders\r\n {game} - the game the raider was playing",
+		"group": "Raid Notify"
+	},
+	"RaidMinRaiders": {
+		"type": "numberbox",
+		"value": "1",
+		"label": "Min Raiders",
+		"tooltip": "Minimum number of raiders to send a message",
+		"group": "Raid Notify"
+	},
+	"MostRecentRaidFormat": {
+		"type": "textbox",
+		"value": "{name} - {count}",
+		"label": "Most Recent Raider Format",
+		"tooltip": "The text to store in the file\r\n{name} - the user who raided\r\n{count} - the number of raiders",
+		"group": "Most Recent Raider File"
+	},
+	"OpenOutputFiles": {
+		"type": "button",
+		"label": "Open File Location",
+		"tooltip": "Opens the folder containing the output file for this script",
+		"function": "OpenOutputFiles",
+		"wsevent": "",
+		"group": "Most Recent Raider File"
+	},
+	"TestRaid": {
+		"type": "button",
+		"label": "Send Test Raid",
+		"tooltip": "Sends a test raid notification",
+		"function": "TestRaid",
+		"wsevent": "",
+		"group": "Testing"
+	},
+	"OpenReadMe": {
+		"type": "button",
+		"label": "Open README.txt",
+		"tooltip": "Opens the README.txt for this script",
+		"function": "OpenReadMe",
+		"wsevent": "",
+		"group": "ReadMe"
+	}
+}
