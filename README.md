@@ -12,7 +12,7 @@ Feel free to reach out to me in the Streamlabs Chatbot discord (@Kruiser8) or on
 The Custom Reply setting specifies the chat message format
 - {name} will be replaced with the user's display name
 - {count} will be replaced with the number of raiders
-- {game} will be replaces with the game (or directory) the user played
+- {game} will be replaced with the game (or directory) the user played
 
 ## Min Raiders
 The minimum number of raiders required to send a message
