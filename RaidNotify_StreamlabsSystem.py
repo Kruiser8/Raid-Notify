@@ -96,7 +96,7 @@ def saveRecentRaid(displayName, viewerCount):
 
 def getRaiderGame(channel):
 	headers = {}
-	url = 'https://decapi.me/twitch/game/'.format(channel)
+	url = 'https://decapi.me/twitch/game/{0}'.format(channel)
 	result = Parent.GetRequest(url, headers)
 
 	data = json.loads(result)
