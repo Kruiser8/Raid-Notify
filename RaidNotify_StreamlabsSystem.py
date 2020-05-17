@@ -3,6 +3,9 @@
 
 """ Raid Notify
 
+	1.0.2
+		Fixed support for raider's game
+
 	1.0.1
 		Added support for raider's game
 
@@ -29,7 +32,7 @@ ScriptName = "Raid Notify"
 Website = "https://www.twitch.tv/kruiser8"
 Description = "Provide Twitch raid chat notifications and a most recent file."
 Creator = "Kruiser8"
-Version = "1.0.1"
+Version = "1.0.2"
 
 #---------------------------------------
 # Script Variables
